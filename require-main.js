@@ -1,7 +1,3 @@
-require(
-  [ 'lib/helloworld' ],
-  
-  function(helloworld) {
-    document.write(helloworld);
-  }
-);
+require([ 'app/boot/index' ], function(index) {
+  index();
+});
